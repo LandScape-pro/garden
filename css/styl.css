@@ -1,0 +1,327 @@
+body{
+    direction: rtl;
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: antiquewhite;
+}
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+@media  (max-width: 700px) {
+    body {
+        background-color: white;
+    }
+    #showimg{
+        height: 400px;
+        width: 400px;
+        margin: 30px 30px;
+        background: url("../images/imag6.jpg") no-repeat center;
+    background-size: cover;
+    
+    }
+  }
+  
+.container{
+    width:90%;
+    margin: auto;
+    overflow: hidden;
+}
+ ul
+{
+ margin: 0;
+ padding: 0;
+
+}
+header{
+    background-color: #353637;
+    color: white;
+    min-height: 70px;
+    padding-top: 30px;
+    border-top: chartreuse 5px solid; 
+
+
+}
+header a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+header li{
+    float: right;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+header #brand{
+    float: right;
+}
+header #brand h1{
+    color: yellowgreen;
+    margin: 0;
+    
+
+}
+header nav{
+    float: left;
+    margin-top: 10px;
+}
+header .current a{
+    color: white;
+}
+header a:hover{
+    color: yellowgreen;
+    font-weight: bold;
+
+}
+header :hover{
+    color: yellowgreen;
+    font-weight: bold;
+  
+}
+header .textphone, header .phonenum:hover{
+
+    color: yellowgreen;
+    font-weight: bold;
+}
+header li p{display: inline;}
+#showimg{
+    position: relative;
+    margin: 10px 300px;
+  
+    min-height: 400px;
+    background: url("../images/WhatsApp\ Image\ 2021-10-21\ at\ 6.03.06\ PM\ \(1\).jpeg") no-repeat center;
+    background-size: cover;
+    
+}
+#showimg:hover{
+         background: url("../images/WhatsApp\ Image\ 2021-10-21\ at\ 6.03.05\ PM\ \(1\).jpeg") no-repeat center;
+      background-size: cover; }
+/**
+#showimg{
+    position: relative;
+    margin-top: 1px !important;
+    padding: 10px;
+    height: 500px;
+    width: 600px;
+    overflow: hidden;
+    transition:transform 5s;
+    margin-right: 400px;
+    margin-left: 40%;
+    transform-style:preserve-3d;
+    
+}
+#showimg:hover{
+    transform:rotateY(-180deg);
+}
+ .front{
+    position: absolute;
+    background:url("../images/تنزيل\ \(1\).jpg");
+    background-size:contain;
+    background-repeat: no-repeat;
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content:stretch;
+    align-items:center;
+    backface-visibility:hidden;
+}
+
+ .back{
+    position: absolute;
+    background: url("../images/تنزيل.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+  
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content:stretch;
+    align-items:center;
+    font-size:30px;
+    backface-visibility:hidden;
+    transform: rotateY(180deg);
+}
+**/
+/**
+.slider{
+    width: 500px;
+    margin-left: 3000x;
+    margin-right: 350px;
+    height: 400px;
+    
+    overflow: hidden;
+}
+
+.slider ul{
+   width: 1500px;
+  
+    padding: 0;
+    list-style: none;
+    
+   position: relative;
+    animation: sliding 5s ease-in-out infinite;
+}
+.slider ul li{
+  float: left; 
+  position: relative;
+   
+}
+@keyframes sliding{
+    5%,35%{left: 0;}
+    35%{left: -500px;}
+    40%,70%{left:-1000px;}
+  
+    
+    
+
+}
+**/
+.picture{
+    margin: auto;
+    overflow: hidden;
+    float: left;
+    
+    padding: 10px;
+    margin: 10px;;
+}
+.picture img{
+
+}
+.con{
+    margin: auto;
+    width: 90%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.con p{
+    font-size: 20px;
+}
+.con p:hover{
+    color:crimson;
+    font-weight: bold;
+}
+.con h1:hover{
+    color:crimson;
+}
+.call{
+    width: 90%;
+    margin: auto;
+
+}
+.call p{
+    
+}
+.tanseq{
+   
+    width: 90%;
+    margin: 20px auto;
+    border:5px solid none;
+    text-align: center;
+
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-content: center;
+}
+.tanseq img:hover{
+     transform:rotateY(180deg)
+}
+.tanseq .dtan{
+ color:black;
+ width: 300px;
+ height: 200px;
+ margin: 20px 20px;
+
+font-size: 20px;
+
+}
+.tanseq .dflower{
+    color:black;
+ width: 300px;
+ height: 200px;
+ margin: 20px 20px;
+ 
+
+font-size: 20px;
+   
+}
+.tanseq .dplantes{
+    color:black;
+ width: 300px;
+ height: 200px;
+ margin: 20px 20px;
+
+
+font-size: 20px;
+  
+    
+}
+.serimg {
+position: relative;
+display: flex;
+flex-direction: row;    
+
+}
+.showvid{
+    position: relative;
+    width: 80%;
+    margin-top: 10px;
+    margin-right: 200px;
+    margin-left: 200px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  
+    
+}
+.showvid video{
+    size: inherit;
+}
+ .footer{
+    background-color: black;
+    height: fit-content;
+    color:white;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 20px;
+    border-top: 5px solid chartreuse;
+    text-align: center;
+   
+  
+}
+.footer h2{
+    color: chartreuse;
+}
+.bastana div{
+    font-size: 20px;
+    text-align: center;
+    
+}
+.bastana{
+    font-size: 20px;
+    text-align: center;
+    height: fit-content;
+    overflow: hidden;
+   
+}
+.bastana div{
+    float: left;
+   
+}
+.bastana h2 { 
+    color:forestgreen;
+    font-size: 40px;
+}
+.mywork{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+.mywork h2{
+    color:forestgreen;
+    font-size: 40px;
+}
